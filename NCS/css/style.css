@@ -1,0 +1,31 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+* { font-family: 'Spoqa Han Sans Neo', 'sans-serif';  }
+ul, li, dl, dd, dt, div, p, header, footer, section, h1, h2, h3, h4, h5, h6{ margin: 0; padding: 0}
+
+/*공통상단*/
+
+#hd { position: fixed; top:0; left:0; right:0; z-index: 1000; text-align: center; text-transform: uppercase; padding:0 30px}
+#hd h1 {display: inline-block; max-width: 120px; width:20%; padding:10px;}
+#hd h1 a {}
+#hd h1 a img{ width:100%;  display: block;}
+
+/*GNB*/
+#gnb{ float:left}
+#gnb li{ margin-right:40px}
+#gnb2{ float:right}
+#gnb2 li{ margin-left:40px}
+#hd ul li{ list-style: none;
+           display: inline-block; vertical-align: middle; line-height: 60px}
+#hd ul li a{ color: rgba(255,255,255,0.5); text-decoration: none;}
+#hd ul li a:hover{color:white}
+
+#main{height: calc(100vh - 200px); background:url(//cheonsumin.dothome.co.kr/NCS/img/bg1.png) no-repeat center top; position: relative;
+      }
+
+#main .text{ position: absolute; left:10%; top:40%; color:white; font-size: 82px; z-index: 10}
+
+#main:after{ content: ""; display: block; position: absolute; left:0; right:0; bottom:0; top:0; background:rgba(0,0,0,.6)}
+
+#brandStory , #products{ min-height: calc(100vh -  200px)}
+#main  .text strong{ font-weight: normal;}
+.bigText span{ color:white;}
